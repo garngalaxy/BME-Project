@@ -13,9 +13,10 @@ This is a project for segmenting marmoset monkeys in images using a combination 
 ### Download mamosets 
 Download `marmoset-dlc-2021-05-07.zip` from https://benchmark.deeplabcut.org/datasets.html
 ### Setup project data by creating directory to train YOLOv8 
+- Create directory to comply with the YOLO file format structure including main directory [`train`, `validation`] and sub directory [`images`, `labels`]
 - Convert the .csv file to a .txt file, then organize the resulting data frame for further processing
 - Using data from .txt file to generate marks and skeletons on .png image
-- Organize the data to comply with the YOLO file format structure including train and validation
+- separate file to tran and validation
 - Create a yaml file and resize image (512,512)
 
 
