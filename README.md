@@ -2,10 +2,12 @@
 
 This is a project for segmenting marmoset monkeys in images using a combination of the YOLO object detection model and the Segment Anything Model (SAM) for accurate segmentation.
 
+
 ## Project outline
 1. Dataset and setup data dataframe
 2. Fine-turning pose estimation with Utralytics
 3. Apply SAM2 to generate masks
+
 
 ## Dataset and setup data dataframe
 ### Download mamosets 
@@ -16,6 +18,7 @@ Download `marmoset-dlc-2021-05-07.zip` from https://benchmark.deeplabcut.org/dat
 - Organize the data to comply with the YOLO file format structure including train and validation
 - Create a yaml file and resize image (512,512)
 
+
 ##  Fine-tuning with YOLOv8
 ### Train YOLOv8
 Install the ultralytics package, which includes the YOLOv8 model. 
@@ -25,6 +28,7 @@ Install the ultralytics package, which includes the YOLOv8 model.
 Plot the results of box estimation and pose estimation.
 Compare the labels and predictions.
 Export the trained model `yolomodel.pt`
+
 
 ## Apply SAM2 to segment image
 ### Setup SAM2 model
