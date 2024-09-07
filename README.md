@@ -15,7 +15,7 @@ Download `marmoset-dlc-2021-05-07.zip` from https://benchmark.deeplabcut.org/dat
 ### Setup project data by creating directory to train YOLOv8 
 - Create directory to comply with the YOLO file format structure including main directory [`train`, `validation`] and sub directory [`images`, `labels`]
 - Convert the .csv file to a .txt file, then organize the resulting data frame for further processing
-- Using data from .txt file to generate marks and skeletons on .png image
+- Using data from .txt file to generate keypoints and skeletons on .png image
 - Separate file to tran and validation
 - Create a yaml file and resize image (512,512)
 
