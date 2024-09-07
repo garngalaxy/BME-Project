@@ -32,8 +32,8 @@ Export the trained model `yolomodel.pt`
 
 ## Apply SAM2 to segment image
 ### Setup SAM2 model
-install the pretrained SAM2 model `sam2_hiera_large.pt` from https://github.com/facebookresearch/segment-anything-2.git 
-Note: The SAM2 model needs to be opened in Google Colab.
+install the pretrained SAM2 model `sam2_hiera_large.pt` from https://github.com/facebookresearch/segment-anything-2.git <br/>
+<i>Note: The SAM2 model needs to be opened in Google Colab.</i>
 
 ### Create mask 
 Creates binary mask on the image using `show_mask`
