@@ -7,8 +7,6 @@ This is a project for segmenting marmoset monkeys in images using a combination 
 1. Dataset and setup data dataframe
 2. Fine-turning pose estimation with Utralytics
 3. Apply SAM2 to generate masks
-4. Using Gradio to generate better interface
-
 
 ## Dataset and setup data dataframe
 ### Download mamosets 
