@@ -7,6 +7,7 @@ This is a project for segmenting marmoset monkeys in images using a combination 
 1. Dataset and setup data dataframe
 2. Fine-turning pose estimation with Utralytics
 3. Apply SAM2 to generate masks
+4. Using Gradio to generate better interface
 
 
 ## Dataset and setup data dataframe
@@ -46,4 +47,7 @@ Install ultralytics package to obtain YOLOv8 and import necessary libraries. Mou
 - Use SAM to generate and visualize segmentation masks based on the detected keypoints
 - Process images that involve object detection, keypoint extraction, and segmentation masks to achieve detailed image analysis.
 
-
+### Create interface with Gradio
+An input image undergoes the `predict_image` function to generate an output image by:
+- Using a trained YOLOv8 model to generate boxes (with labels) and keypoints.
+- Using SAM to overlay masks on the image based on the boxes and keypoints from the YOLOv8 model
