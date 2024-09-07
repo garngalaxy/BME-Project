@@ -23,7 +23,7 @@ Download `marmoset-dlc-2021-05-07.zip` from https://benchmark.deeplabcut.org/dat
 ### Train YOLOv8
 Install the ultralytics package, which includes the YOLOv8 model. 
  Set up the training parameters including the path to YAML configuration file, the number of training epochs, and the image size.
- Begin the training process using the specified parameters. After training is complete, check the results.
+ Begin the training process using the specified parameters. YOLOv8 models are trained using Visual Studio Code. After training is complete, check the results.
 ### Plot the results
 Plot the results of box estimation and pose estimation.
 Compare the labels and predictions.
@@ -32,7 +32,8 @@ Export the trained model `yolomodel.pt`
 
 ## Apply SAM2 to segment image
 ### Setup SAM2 model
-install the pretrained SAM2 model `sam2_hiera_large.pt` from https://github.com/facebookresearch/segment-anything-2.git
+install the pretrained SAM2 model `sam2_hiera_large.pt` from https://github.com/facebookresearch/segment-anything-2.git 
+Note: The SAM2 model needs to be opened in Google Colab.
 
 ### Create mask 
 Creates binary mask on the image using `show_mask`
